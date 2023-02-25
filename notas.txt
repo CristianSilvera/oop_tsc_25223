@@ -1,0 +1,30 @@
+MVC = App, la dividimos en 3 capas
+models: en la primera capa, tenemos el modelo de dominio de la App (entidades)
+- cliente con cta bancaria asociada, persona física, juridica, empresa.
+- entidades, acciones del mundo real y sus datos 
+- cta bancaria: saldo, incremento de monto, decremento, consulta, etc.
+Retornar el valor del saldo. 
+- 1 entiad (cuenta bancaria)
+- 1 atributo (saldo)
+- 3 operaciones:
+    - consulta
+    - debito
+    - depósito
+
+Instancia: de forma resumida, es una "copia" de class que tiene valores custom en sus atributos. 
+Podemos pensar en la relacion classe-instancia de la misma forma que especia-especimen
+
+espécimen
+Learn to pronounce
+nombre masculino
+Muestra, modelo o ejemplar que tiene las cualidades o características que se consideran representativas de la especie a la que pertenece.
+"en la selva encontramos un espécimen de jaguar"
+
+
+Un objeto es una instancia de una classe. 
+
+Cada cuenta de un cliente sera un objeto.
+
+Contructor: Funcion que es invocada en el momento de instanciar(creacion) del objeto. Dentro del constructor deben ser inicializados los objetos necesarios, para ser utilizados
+
+Estoy aquí: Orientação a Objetos com TypeScript - Criando o primeiro método (Parte 3)
